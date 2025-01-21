@@ -1,1 +1,0 @@
-# scowtt_challenge
