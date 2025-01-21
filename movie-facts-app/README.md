@@ -25,7 +25,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository and Install dependecies**
 ```bash
-git clone <repository-url>
+git clone https://github.com/nemanfaiz/scowtt_challenge.git
 cd movie-facts-app
 npm install
 ```
