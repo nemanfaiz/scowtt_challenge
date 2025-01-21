@@ -17,7 +17,7 @@ A web application that allows users to sign in with Google, save their favorite 
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
-- Node.js (v16.x or higher)
+- Node.js (v19.x or higher)
 - PostgreSQL (v14.x or higher)
 - npm or yarn
 
@@ -45,6 +45,8 @@ npm install
     sudo apt update
     sudo apt install postgresql postgresql-contrib
     sudo systemctl start postgresql
+    sudo systemctl enable postgresql
+    sudo -i -u postgres
 ```
 
 3. **Create Database and User**
